@@ -1,0 +1,419 @@
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+/*navbar*/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar .navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar .nav-item{
+    padding: 0 0 0 15px ;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    background-color: #3b83ff;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar .nav-link:hover{
+    background-color: #3b83ff ;
+    color: white;
+    border-radius: 18px 0;
+    transition: all 0.5s ease;
+}
+
+/*introduction section*/
+.introduction{
+    color: white;
+}
+.overlay{
+    padding-top: 8rem;
+    height: 600px;
+    background: rgba(22, 22, 22, .80);
+    z-index: 1;
+}
+.intro p{
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.intro button{
+    border-radius: 25px;
+    padding: 5px 30px;
+    background-color: #4385f4;
+    border-color: #4385f4;
+}
+.intro button:hover{
+   
+    background-color: #346bca;
+    border-color: #346bca;
+}
+
+/*business*/
+
+.business_half{
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #333;
+}
+.business_half button{
+    display: block;
+    background-color:#3b83ff;
+    border-color:#3b83ff;
+}
+.business_half button:hover{
+    background-color: #346bca;
+    border-color: #4385f4;
+}
+.business_half a{
+    text-decoration: none;
+}
+.business{
+    background: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*overview*/
+.overview {
+    background-color: #734ae8;
+    background-image: linear-gradient(#734ae8 0%, #5452df 74%);
+    color: white;
+}
+
+
+/*services*/
+
+.services .card{
+    position: relative;
+    padding-top: 15px;
+}
+.services .card:hover{
+  background-color: #3b83ff;
+  color: white;
+  transition: all 0.5s ease;
+}
+.services .card:hover .icon{
+    background-color: white;
+    color: #3b83ff;
+    transition: all 0.5s ease;
+}
+.services .card:hover i{
+    color: #3b83ff;
+}
+.services .card{
+    padding: 50px 20px 0 ;
+    background-color: rgb(253, 249, 249);
+}
+.iconwrap{
+    position: absolute;
+    left: 34%;
+    top: -48px
+}
+.services .icon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #4285f4;
+    box-shadow: 3px 3px 5px gray;
+    
+}
+.icon i{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.our_services .more_services a{
+    text-decoration: none;
+}
+
+
+
+/*our clients*/
+.client_section{
+    background-color: #f4f4f4;
+}
+.our_clients{
+    max-height: 100px;
+    max-width: auto;
+    
+}
+.our_clients{
+    filter: grayscale(100%);
+    transition-duration: 0.3s;
+}
+.our_clients:hover{
+    filter: none;
+}
+
+/*our process*/
+.process i{
+    display: inline-block;
+    width: auto;
+    height: 70px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 2px grey;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 15px;
+}
+.reqanalysis:hover i{
+    background-color: #734ae8;
+    border:1px solid #734ae8;
+    color: white;
+}
+/*testimonial*/
+
+.quote_section{
+    text-align: center;
+    justify-content: center;
+    border: 3px solid #734ae8;
+    border-radius: 35px 0;
+    padding: 20px;
+    background-color: #734ae8;
+    color: white;
+}
+.quote_section p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.quote_section p::before{
+    content: open-quote;
+}
+.quote_section p::after{
+    content: close-quote;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding-top: 3rem;
+}
+.footer-logo{
+    color: white;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer i{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+.foot_title li a{
+    text-decoration: none;
+    color: white;
+}
+.social li{
+    display: inline;
+}
+.social .facebook{
+    background-color :#3B5998;
+}
+.social .instagram{
+    background-color:RGB(253, 29, 29);
+}
+.social .linkedin{
+    background-color :#0e76a8;
+}
+.foot_title h3{
+    color: rgb(209, 209, 209);
+}
+.footer-bottom{
+    padding: 5px 0;
+    background-color: black;
+}
+
+/*contact page*/
+
+.media {
+    align-items: center;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.media .item_icon {
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+.item-icon i{
+font-size: 24px;
+    color: #444444;
+    font-weight: 700;
+}
+.media-body{
+    margin-left: 3rem;
+
+}
+
+.item-title{
+    font-weight: 600;
+    color: #2075b2;
+    margin-bottom: 7px;
+}
+
+.media-body ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group .form-control {
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #646464;
+    padding: 20px;
+}
+
+.btn_form{
+    background-color: #3b83ff;
+    color: white;
+}
+.btn_form:hover{
+    background-color: #3B5998;
+    border-color: #3B5998;
+    color: white;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #333;
+}
+/*services*/
+.services_intro{
+    padding-top: 5rem;
+}
+
+/*Our Team*/
+
+.image_box{
+    background-color: #ffff;
+    padding: 40px;
+    border-radius: 8px;
+}
+.image_box:hover{
+    background-color: #5452df;
+    color: white;
+    transition:all 0.5s ease;
+}
+.image_box:hover i{
+    color: white;
+    transition:  all 0.5 ease;
+}
+
+.team_bg{
+    background-color: #f4f4f4;
+}
+
+
+.team img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.team p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.image_box a i{
+    margin-right: 5px;
+    
+}
+
+.team .gmail{
+    color: #EA4335;
+}
+.team .instagram{
+    color:RGB(253, 29, 29);
+}
+
+/*About Us section*/
+.needed_space{
+    height: 120px;
+}
+
+/*wanna work section*/
+.wanna_work{
+    background-color: #734ae8;
+    background-image: linear-gradient(#734ae8 0%, #5452df 74%);
+    color: white;
+}
+.wanna_work a{
+    text-decoration: none;
+    color: white;
+}
+.wanna_work a:hover{
+    color: goldenrod;
+}
+
+
+/*product section*/
+
+.card_section a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card:hover{
+    border: 1px solid #5452df;
+    transform: translateZ(10%);
+}
+.card-header{
+    background: none;
+}
+
+.card-footer{
+    background-color: #734ae8;
+    color: white;
+
+}
+.view{
+    background-color: #734ae8;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: 1px solid #333;   
+}
+
+.view:hover{
+    color: white;
+    background-color: #5452df;
+}
+.our_product{
+    padding: 20px 0;
+    background-color:#f4f4f4 ;
+}
